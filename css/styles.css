@@ -1,11 +1,9 @@
-    .green-background { */
-       background-color: green;
+    .black-background {
+       background-color: black;
+       color: white;
      }
 
-     .yellow-background {
-       background-color: yellow;
-     }
+  .border{
+    display:none;
 
-     .red-background {
-       background-color: red; 
-     }
+  }

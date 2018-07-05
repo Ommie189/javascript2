@@ -1,16 +1,15 @@
 $(document).ready(function() {
-        $("button#green").click(function() {
-          $("body").removeClass();
-          $("body").addClass("green-background");
+        $("button#night-mode").click(function() {
+          $("body").addClass("black-background");
+          // $("body").removeClass("black-background");
+          // $("body").addClass("white-text")
         });
-
-        $("button#yellow").click(function() {
-          $("body").removeClass();
-          $("body").addClass("yellow-background");
+        //
+        $("button#day-mode").click(function() {
+          $("body").removeClass("black-background");
+        //   $("body").addClass("white-background");
+        //   $("body").addClass("black-text")
         });
-
-        $("button#red").click(function() {
-          $("body").removeClass();
-          $("body").addClass("red-background");
-        });
+        // $("p").click(function(); {
+        // $(".border").show("border");
       });
